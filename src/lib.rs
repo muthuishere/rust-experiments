@@ -3,6 +3,8 @@ mod json;
 mod car_service;
 mod car_analysis;
 mod common;
+mod product_service;
+mod product_analysis;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
